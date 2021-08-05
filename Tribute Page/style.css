@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.promo-title{
+    font-size: 45px;
+    font-weight: 600px;
+    margin-top: 70px;
+}
+.btn-info{
+    box-shadow: none !important;
+    padding: 8px 25px;
+    border-radius: 2px !important;
+    border : 2px solid #3c366b !important;
+    color : #3c366b !;
+    background: none !important;
+}
+.btn-info:hover{
+    background: #3c366b !important;
+    color : #fff !important;
+    border : 2px solid #fff;
+}
+#life{
+    padding: 40px 0;
+    color: #3c366b;
+
+}
+.title::before{
+    content: '';
+    background: : #3c366b;
+    height: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
+}
+ul{
+    list-style-type: none;
+    font-weight: lighter;
+
+}
+ul li{
+    padding: 3px;
+    font-weight: 300;
+    color: black;
+}
+#films{
+    padding: 40px 0;
+    color: #3c366b;
+}
+
+#early{
+    padding: 40px 0;
+    color: #3c366b;
+}
+
+#movies{
+    padding: 40px 0;
+    color: #3c366b;
+}
+
+#phil{
+    padding: 40px 0;
+    color: #3c366b;
+}
+
+#personal{
+    padding: 40px 0;
+    color: #3c366b;
+}
+#death{
+    padding: 40px 0;
+    color: #3c366b;
+}
